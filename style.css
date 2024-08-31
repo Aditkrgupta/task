@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+   
+    background-image: url(https://th.bing.com/th/id/OIP.QXYu8JqMdwfnNnAlDTuoGQHaFN?w=266&h=187&c=7&r=0&o=5&pid=1.7);
+}
+.container{
+    width: 600px;
+    margin: 10px auto;
+    padding: 40px;
+}
+.inputs{
+
+    text-align: center;
+    justify-content: center;
+    background-color: aliceblue;
+    border-radius: 5px;
+    height: 80px;
+}
+.inputs input[type="text"]
+{
+    height: 2rem;
+    width:20rem;
+    background: rgb(189, 173, 155);
+    font-weight:bold;
+    font-size: 1rem;
+    padding: 10px;
+    border: none;
+    
+    border: 2px solid black;
+    border-radius: 5px;
+margin-right: 4px;
+margin-top: 18px;
+}
+.inputs input[type="submit"]
+{
+height: 2rem;
+width: 5rem;
+background: rgb(161, 161, 238);
+font-weight: bold;
+color: white;
+border-radius: 5px;
+border: none;
+cursor: pointer;
+}
+.display{
+    text-align: center;
+    width: 520px;
+    color: rgb(118, 187, 118);
+
+}
+.wrapper{
+    margin: 0 9rem;
+background-color: aquamarine;
+height: 45vh;
+margin: 50px auto;
+border-radius: 7px;
+}
+.wrapper h2{
+padding: 5px 0;
+text-align: center;
+background: blue;
+color: white;
+}
+.wrapper p{
+    margin: 20px 50px ;
+    margin-right: 20px;
+    text-align: left;
+    color: rgb(120, 173, 13);
+    font-size: 23px;
+}
+.wrapper h2 span{
+    font-size: 26px;
+    color: rgb(112, 142, 216);
+
+}
+.wrapper p span{
+    color: rgb(177, 3, 177);
+    font-size: 20px;
+}
